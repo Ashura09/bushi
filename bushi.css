@@ -1,4 +1,4 @@
 body {
     background-color: pink;
-    background-image: url("images/spawn.png");
+    background-image: url("images/spawn.png"); /* Why the fuck this didn't working */
 }

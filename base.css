@@ -1,0 +1,127 @@
+body {
+    background: cyan;
+	background-image: url("images/bg_stylised.png");
+	background-repeat: repeat;
+	overflow-x: hidden;
+}
+
+.msgSuccess {
+	transition:0.5s all;
+	color: white;
+	background: green;
+	border: 2px solid lime;
+	padding: 5px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 15px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 7px black;
+	font-family: Helvetica, sans-serif;
+	font-weight: 900;
+}
+
+.msgAlert {
+	transition:0.5s all;
+	color: black;
+	background: yellow;
+	border: 2px solid rgb(255,96,0);
+	padding: 5px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 15px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 7px black;
+	font-family: Helvetica, sans-serif;
+	font-weight: 900;
+}
+
+.msgInfo {
+	transition:0.5s all;
+	color: black;
+	background: cyan;
+	border: 2px solid blue;
+	padding: 5px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 15px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 7px black;
+	font-family: Helvetica, sans-serif;
+	font-weight: 900;
+}
+
+.msgFail {
+	transition:0.5s all;
+	color: white;
+	background: red;
+	border: 2px solid rgb(64,64,64);
+	padding: 5px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 15px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 7px black;
+	font-family: Helvetica, sans-serif;
+	font-weight: 900;
+}
+
+.msgSuccess:hover {
+	color: white;
+	background: green;
+	border: 5px solid lime;
+	padding: 15px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 15px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 7px black;
+	font-size: 200%;
+}
+
+.msgAlert:hover {
+	color: black;
+	background: yellow;
+	border: 5px solid rgb(255,96,0);
+	padding: 15px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 15px;
+	border-radius: 5px;
+	font-size: 200%;
+}
+
+.msgInfo:hover {
+	color: black;
+	background: cyan;
+	border: 5px solid blue;
+	padding: 15px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 15px;
+	border-radius: 5px;
+	font-size: 200%;
+}
+
+.msgFail:hover {
+	color: white;
+	background: red;
+	border: 5px solid rgb(64,64,64);
+	padding: 15px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-top: 15px;
+	border-radius: 5px;
+	font-size: 200%;
+}
+
+.textZoom {
+	transition:0.5s all;
+	font-size: 100%;
+	font-family: Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+.textZoom:hover {
+	font-size: 200%;
+	font-weight: 1000;
+}

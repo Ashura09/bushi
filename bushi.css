@@ -1,4 +1,50 @@
 body {
     background-color: pink;
-    background-image: url("images/spawn.png"); /* Why the fuck this didn't working */
+    overflow-x: hidden;
+}
+
+/* Spawn */
+
+#logo1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+#spawnBG {
+    position: absolute;
+    left: -1em;
+    top: 0px;
+    width: 102%;
+    z-index: -1;
+}
+
+#MadeBySpawn {
+    transform: translateX(50%);
+    width: 85%;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: larger;
+    color: white;
+}
+
+/* Wat u can du, mom, fuck u */
+
+#doBG {
+    position: absolute;
+    left: -1em;
+    top: 65rem;
+    width: 102%;
+    z-index: -1;
+}
+
+#DuText {
+    transform: translateX(50%);
+    width: 70%;
+    padding-top: 12rem;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 48px;
+    color: white;
 }
